@@ -1,0 +1,9 @@
+SCREEN COMMANDS FOR CONTROLLER (APEX)
+
+screen -list                 
+screen -X -S 12185.ttys002.dyn28198-117 kill
+screen /dev/tty.usbmodem1101 9600   
+ls /dev/tty.*     
+
+os.rename("boo.py", "boot.py")
+os.rename("boot.py", "boo.py")
